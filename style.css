@@ -1,0 +1,47 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap');
+
+body {
+    font-family: 'Libre Baskerville';
+}
+
+header {
+    position: fixed;
+    background-color: black;
+}
+
+#topleft {
+    position: relative;
+    top: 25px;
+    left: 50px;
+}
+
+#title {
+    margin-left: 700px;
+    margin-top: -150px;
+}
+
+#links {
+    margin-left: 700px;
+}
+
+#resume {
+    background-color: #FFFEDB;
+    margin-top: 300px;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #965830;
+}
+
+nav {
+    text-align: center;
+}
+
+h2 {
+    text-align: left;
+    text-transform: uppercase;
+    color: #965830;
+}
