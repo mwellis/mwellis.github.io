@@ -3,60 +3,75 @@
 
 :root {
     font-size: 100%;
-    --banner-size: 200px;
+    --banner-size: 150px;
 }
 
 body {
     font-family: 'Libre Baskerville';
 }
 
-#page-banner {
-    position: fixed;
-    background-color: #FFFEDB;
-    width: 100%;
-    height: 250px;
 
-    margin-top: -250px;
+a {
+    color: #FFF1C6;
+}
+
+a:visited {
+    color: #CCB260;
+}
+
+.section-header {
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background: #436180;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: #FFF1C6;
 }
 
 #topleft {
-    float:left;
-    position: relative;
-    top: 100px;
-    left: 30px;
-    width: 150px;
-    height: 150px;
-}
-
-#title {
     float: left;
-    margin-top: 120px;
-    margin-left: 400px;
+    width: 5.5%;
+    height: 5.5%;
+    padding-right: 5%;
 }
 
-#links {
-    float: left;
-    margin-top: 20px;
-    margin-left: 570px;
+#page-banner {
+    color: #FFF1C6;
+    position: sticky;
+    top: 0;
+    width: 98.92%;
+    padding: 10px;
+    background: #436180;
+    text-align: start;
 }
 
-#resume {
-    background-color: white;
-    margin-top: 150px;
+#email-link {
+    color: blue;
 }
 
-h1 {
-    text-align: center;
-    text-transform: uppercase;
-    color: #965830;
+
+.sub-body {
+    padding-left: 2.5%;
+    font-size: 150%;
 }
 
-nav {
-    text-align: center;
+.resume {
+    background: #FFF1C6;
+    border-radius: 10px;
+    scroll-margin-top:var(--banner-size);
 }
 
-h2 {
-    text-align: left;
-    text-transform: uppercase;
-    color: #965830;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
